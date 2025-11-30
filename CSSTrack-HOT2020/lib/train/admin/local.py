@@ -1,0 +1,26 @@
+class EnvironmentSettings:
+    def __init__(self):
+        self.workspace_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020'    # Base directory for saving network checkpoints.
+        self.tensorboard_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/tensorboard'    # Directory for tensorboard files.
+        self.pretrained_networks = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/pretrained_networks'
+        self.lasot_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/LaSOT'
+        self.got10k_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/got10k/train'
+        self.got10k_val_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/got10k/val'
+        self.lasot_lmdb_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/lasot_lmdb'
+        self.got10k_lmdb_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/got10k_lmdb'
+        self.trackingnet_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/trackingnet'
+        self.trackingnet_lmdb_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/trackingnet_lmdb'
+        self.coco_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/coco'
+        self.coco_lmdb_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/coco_lmdb'
+        self.lvis_dir = ''
+        self.sbd_dir = ''
+        self.imagenet_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/vid'
+        self.imagenet_lmdb_dir = '/data/lizf/work_2025/new_band_selection/0422/github/CSSTrack-HOT2020/data/vid_lmdb'
+        self.imagenetdet_dir = ''
+        self.ecssd_dir = ''
+        self.hkuis_dir = ''
+        self.msra10k_dir = ''
+        self.davis_dir = ''
+        self.youtubevos_dir = ''
+        self.hot2020_dir='/data/lizf/HOT/dataset/train'
+        self.imec25_dir='/data/lizf/HOT/IMEC25Dataset/train'
