@@ -89,8 +89,8 @@ lib/test/evaluation/local.py  # paths about testing
     - https://pan.baidu.com/s/1qRuCKQ2hhE5-MhrkeLiEQA  
     - Access code: 2025
     
-    + Change the path of training data in lib/train/admin/local.py (Line 25: self.hot2020_dir='/data/xx/HOT2020/train')
-    + Run: python tracking/train.py --script csstrack --config CSSTrack-ep30-s256 --save_dir ./output --mode single --nproc_per_node 1
+    * Change the path of training data in lib/train/admin/local.py (Line 25: self.hot2020_dir='/data/xx/HOT2020/train')
+    * Run: python tracking/train.py --script csstrack --config CSSTrack-ep30-s256 --save_dir ./output --mode single --nproc_per_node 1
 
 (c) Test: Download testing model of HOT2020 in  
     - https://pan.baidu.com/s/1WJLo72hwzr6y_BtjFFp-Dg
