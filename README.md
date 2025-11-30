@@ -13,7 +13,7 @@ conda activate csstrack
 bash install.sh
 ```
 
-## Set project paths
+## 2. Set project paths
 Run the following command to set paths for this project
 ```
 python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
@@ -29,6 +29,7 @@ lib/test/evaluation/local.py  # paths about testing
 + The HOT2020 is from "https://www.hsitracking.com/".
 + The IMEC25 dataset is from paper "Histograms of oriented mosaic gradients for snapshot spectral image description".
 + The data should look like:
+  ```
     1. The format of training dataset:
         rootDir |-
                    videoName1
