@@ -1,8 +1,6 @@
-# CSSTrack: A unified spatial-spectral-temporal network for hyperspectral object tracking
+# The soure code of the paper "A unified spatial-spectral-temporal network for hyperspectral object tracking".
 
-# Quick Start
-
-## The soure code of the paper "A unified spatial-spectral-temporal network for hyperspectral object tracking".
+## Quick Start
 
 ## 1. Install the environment
 
