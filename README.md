@@ -1,8 +1,8 @@
-# CSSTrack  
+# CSSTrack: A unified spatial-spectral-temporal network for hyperspectral object tracking
 
 # Quick Start
 
-## The soure code of the paper "CSSTrack".
+## The soure code of the paper "A unified spatial-spectral-temporal network for hyperspectral object tracking".
 
 ## 1. Install the environment
 
@@ -117,11 +117,23 @@ lib/test/evaluation/local.py  # paths about testing
     I. Change the path of training data in lib/train/admin/local.py (Line 20: settings.imec25_path = '/data/xxx/HOT/IMEC25/test')
     II. Run: python tracking/test_epoch.py --checkpoint_path ../CSSTrack_ep0030_final.pth.tar
 
+## 6. Cite
+```
+@article{LI2025111389,
+title = {A unified spatial-spectral-temporal network for hyperspectral object tracking},
+author = {Zhuanfeng Li and Jing Wang and Jue Zhang and Dong Zhao and Guanyiman Fu and Jiangtao Wang and Jianfeng Lu},
+journal = {Pattern Recognition},
+volume = {174},
+pages = {113005},
+year = {2026},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2025.113005},
+}
+```
 
-## 6. Concat
-* lizhuanfeng@hytc.edu.cn;
-* If you have any questions, just contact me.
-
+## 7. Concat
+lizhuanfeng@hytc.edu.cn;
+If you have any questions, just contact me.
 
 ## Acknowledgments
 * Thanks for the [AQATrack](https://github.com/GXNU-ZhongLab/AQATrack) and [PyTracking](https://github.com/visionml/pytracking) library, which helps us to quickly implement our ideas.
